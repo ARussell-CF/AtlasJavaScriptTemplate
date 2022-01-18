@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0 ">
                     <li class="nav-item">
-                        <a class="nav-link"  href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" href="app.html">The App</a>
@@ -53,7 +53,11 @@
     <!-- ======= Main Section ======= -->
     <main id="content" class="flex-shrink-0">
         <div class="container col-xxl-8 px-4 py-5 mt-5">
-                
+            <h1>App Will Go Here</h1>
+            <input id="message" name="message" placeholder="Enter a message" />
+            <div class="p-2">
+                <button id="btnSubmit" class="btn btn-primary">Display Message</button>
+            </div>
         </div>
     </main>
     <!-- ======= Footer Section ======= -->
@@ -86,7 +90,7 @@
 
     <script src="js/site.js"></script>
     <script>
-        document.getElementById("btnSubmit").addEventListener("click", getValues);
+        document.getElementById("btnSubmit").addEventListener("click", getMessage);
     </script>
 </body>
 
